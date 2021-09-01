@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/infolettre",
+      "handler": "infolettre.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/infolettre",
+      "handler": "infolettre.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/infolettre",
+      "handler": "infolettre.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
